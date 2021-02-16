@@ -21,7 +21,9 @@ else
    echo "$yy is NOT leap year"
 fi
 
-2.	#!/bin/bash -x
+
+
+#!/bin/bash -x
 
 read -p " Enter Date:-" date
 read -p " Enter Month:-" Month
@@ -37,5 +39,14 @@ then
 else
 
         echo "False";
+fi
+
+
+#!/bin/bash
+Result=$((RANDOM%2))
+if [[ ${Result} -eq 0 ]]; then
+echo HEADS
+elif [[ ${Result} -eq 1 ]]; then
+echo TAILS
 fi
 
