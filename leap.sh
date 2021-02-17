@@ -110,3 +110,18 @@ elif [ $c -gt $a ] && [ $c -gt $b] then
    echo "Maximum:" $temp3
 fi
 
+
+5.	#!/bin/bash
+ sum=0
+avg=0
+n=5
+for ((i=0;i<5;i++))
+do 
+randomNumber=$((10  +  $RANDOM%100 ))
+echo  $randomNumber
+sum=$(($randomNumber))
+Done
+echo “sum is :-” sum
+avg=$(($sum / n))
+echo “average is avg:-“ $avg
+
