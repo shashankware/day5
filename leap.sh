@@ -125,3 +125,27 @@ echo “sum is :-” sum
 avg=$(($sum / n))
 echo “average is avg:-“ $avg
 
+#!/bin/bash
+randomNum=$((1 + $RANDOM % 1))
+if [ $randomNum -eq "1" ]
+Then
+   echo "INDIA"
+elif [ $randomNum -eq "2" ]
+Then
+   echo "AUSTRALIA"
+elif [ $randomNum -eq "3" ]
+Then
+   echo "NEA ZEALAND"
+elif [ $randomNum -eq "4" ]
+Then
+   echo "ENGLAND"
+elif [ $randomNum -eq "5" ]
+Then
+   echo "SOUTH AFRICA"
+elif [ $randomNum -eq "6" ]
+Then
+   echo "WEST INDIES"
+Else
+   echo "PAKISTAN"
+fi
+
