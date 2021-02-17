@@ -107,6 +107,6 @@ elif [ $b -gt $a ] && [ $b -gt $c ]
 then
    echo "Maximum:" $b
 elif [ $c -gt $a ] && [ $c -gt $b] then
-   echo "Maximum:" $temp3
+   echo "Maximum:" $c
 fi
 
